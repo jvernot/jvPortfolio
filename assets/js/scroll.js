@@ -25,4 +25,22 @@ $(document).ready(function(){
             scrollTop: $("#contactmeStart").offset().top
         }, 2000);
     });
+
+    $("a:contains(About)").click(function() {
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#aboutmeStart").offset().top
+        }, 2000);
+    });
+
+    $("a:contains(Projects)").click(function() {
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#projectsStart").offset().top
+        }, 2000);
+    });
+
+    $("a:contains(Contact)").click(function() {
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#contactmeStart").offset().top
+        }, 2000);
+    });
 });
